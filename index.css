@@ -1,0 +1,37 @@
+body {
+    font: 43px;
+    font-style: italic;
+    color: firebrick;
+    margin: 25px;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+header h1{
+    font-size: 40;
+    text-align: center;
+    padding: 5px;
+    color: chartreuse;
+}
+
+ul {
+    padding: 0;
+    margin-top: 10px;
+}
+
+li {
+    list-style: none;
+    padding: 8px;
+    margin: 5px 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.purchased {
+    text-decoration: line-through;
+    background-color: skyblue;
+}
